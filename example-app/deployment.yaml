@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: simple-example
 spec:
-  replicas: 19
+  replicas: 21
   revisionHistoryLimit: 3
   selector:
     matchLabels:
